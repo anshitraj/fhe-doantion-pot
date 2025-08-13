@@ -1,0 +1,25 @@
+# root
+.DS_Store
+*.log
+.env
+*.env
+.env.local
+.env.*.local
+
+# node
+node_modules/
+
+# hardhat
+backend/.env
+backend/cache/
+backend/artifacts/
+backend/typechain/
+backend/coverage/
+
+# next.js
+frontend/.env.local
+frontend/.next/
+frontend/out/
+
+# misc
+dist/
